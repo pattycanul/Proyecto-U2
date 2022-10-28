@@ -1,0 +1,86 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-size: 1010px;
+    width: 200px;
+    height: 100px;
+}
+
+.Contenedor {
+    margin: 20% 30%;
+    height: 2vh;
+}
+
+.Logo img{
+    padding-bottom: 50px;
+    margin: 2%;
+    width: 160px;
+    height: 80px;
+}
+
+.Box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    margin: 2%;
+    height: 375px;
+    width: 1040px;
+}
+
+.Paginas {
+    width: 850px;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -5%;
+}
+
+.Texto {
+    height: 360px;
+}
+.Texto h1{
+    width: 400px;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+
+.Texto p{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.Btn {
+    border-radius: 20px;
+    border: none;
+    width: 9rem;
+    height: 2.5rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.123);
+    cursor: pointer;
+}
+
+.RedesSociales {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    margin-left: 950px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.RedesSociales i {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 0 10px 0 10px;
+  }
